@@ -1,7 +1,7 @@
 const DODGER = document.getElementById('dodger')
 const GAME = document.getElementById('game')
-const GAME_HEIGHT = document.getElementById('game').offsetHeight;
-const GAME_WIDTH = document.getElementById('game').offsetWidth;
+const GAME_HEIGHT = document.getElementById('game').clientHeight;
+const GAME_WIDTH = document.getElementById('game').clientWidth;
 const LEFT_ARROW = 37 // use e.which!
 const RIGHT_ARROW = 39 // use e.which!
 const ROCKS = []
