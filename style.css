@@ -1,4 +1,4 @@
-body{
+body, html, head{
   height:100%;
 }
 #dodger {
@@ -15,7 +15,7 @@ body{
   overflow: hidden;
   position: relative;
   text-align: center;
-  width: 400px;
+  width: 100%;
   background-image: url('weather.png');
   background-size: cover;
 }
