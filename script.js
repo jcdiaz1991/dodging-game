@@ -165,7 +165,7 @@ let touchstartY = 0;
 let touchendX = 0;
 let touchendY = 0;
 
-const gestureZone = document.getElementById('game');
+const gestureZone = document.getElementById('body');
 
 gestureZone.addEventListener('touchstart', function(event) {
     touchstartX = event.changedTouches[0].screenX;
