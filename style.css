@@ -1,3 +1,6 @@
+body{
+  height:100%;
+}
 #dodger {
   background-color: red;
   height: 20px;
