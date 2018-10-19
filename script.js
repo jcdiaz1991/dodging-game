@@ -6,6 +6,7 @@ const LEFT_ARROW = 37 // use e.which!
 const RIGHT_ARROW = 39 // use e.which!
 const ROCKS = []
 const START = document.getElementById('start')
+const gameDes = document.getElementById('des')
 
 var gameInterval = null
 
@@ -108,9 +109,11 @@ else {
    document.removeEventListener('keydown', moveDodger)
 
    START.innerHTML = 'Play again?'
+   gameDes.innerHTML = '<p>You Lost!:(</p>'
+   gameDes.style.display = 'inline'
    START.style.display = 'inline'
 
-   return alert('YOU LOSE!')
+   return
  }
 
  function moveDodger(e) {
@@ -154,7 +157,6 @@ function start() {
   window.addEventListener('keydown', moveDodger)
 
   START.style.display = 'none'
-  var gameDes =  document.getElementById('des');
   gameDes.style.display = 'none'
 
   gameInterval = setInterval(function() {
