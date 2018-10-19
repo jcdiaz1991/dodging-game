@@ -27,6 +27,15 @@ body, html, head{
   position: relative;
   text-decoration: none;
   top: 4rem;
+  font-family: 'Chakra Petch' , sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  position: relative;
+  top: 4rem;
+  font-family: 'Chakra Petch' , sans-serif;
+  font-weight: bold;
 }
 
 .rock {
