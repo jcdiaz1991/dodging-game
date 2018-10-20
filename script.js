@@ -15,7 +15,7 @@ var gameInterval = null
  * but all of your work should happen below.
  */
 window.onload = function dodgerStartPosition(){
-  return DODGER.style.left = `${(GAME_WIDTH/2)-20}px`;
+  return DODGER.style.left = `${(GAME_WIDTH/2)-20}px`, DODGER.style.display="";
 }
 
  function checkCollision(rock) {
