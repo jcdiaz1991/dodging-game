@@ -14,7 +14,7 @@ var gameInterval = null
  * Be aware of what's above this line,
  * but all of your work should happen below.
  */
-function dodgerStartPosition(){
+window.onload = function dodgerStartPosition(){
   return DODGER.style.left = `${(GAME_WIDTH/2)-20}px`;
 }
 
