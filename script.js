@@ -14,7 +14,9 @@ var gameInterval = null
  * Be aware of what's above this line,
  * but all of your work should happen below.
  */
-
+function dodgerStartPosition(){
+  return DODGER.style.left = `${(GAME_WIDTH/2)-20}px`;
+}
 
  function checkCollision(rock) {
    const top = positionToInteger(rock.style.top)
@@ -112,7 +114,6 @@ else {
    gameDes.innerHTML = '<p>You Lost!:(</p>'
    gameDes.style.display = 'inline'
    START.style.display = 'inline'
-
    return
  }
 
